@@ -12,12 +12,12 @@ def main():
     
     
     print(f"--- Begin report of {book_path} ---")
-    print (f"This book contains {num_words} words\n")
+    print (f"This book contains {num_words} words.\n")
 
     for c in range(len(alpha_counts)):
      print(f"The '{alpha_counts[c]["char"]}' character was found {alpha_counts[c]["count"]} times.")
-    
-
+    print()
+    print("--- END OF REPORT ---")
 
 
 def get_num_words(text):
